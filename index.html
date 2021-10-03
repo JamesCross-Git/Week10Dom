@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="main">
+
+    <!-- bootstrap navbar -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="pics/rings2.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Cross & Rhea RSVP
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid headline">
+        <h1 class="text-center text-white">
+            Welcome!
+        </h1>
+    </div>
+
+
+    <!-- headline -->
+    <div class="container-fluid">
+        <h1 class="text-center text-white">
+            Please Take the Time To RSVP
+        </h1>
+    </div>
+
+    <!-- Form -->
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" class="form-control" id="last-name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="allergies">Allergies</label>
+                        <input type="text" class="form-control" id="allergies" placeholder="Please Let us Know!">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="add" class="btn btn-dark form-control mt-2">RSVP</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center text-white currentList">
+                    This is our Current List of Attendees
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-xs-12">
+                <table id="list" class="table table-dark table-striped">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Any Known Allergies</th>
+                        <th>Action</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <h2 class="container text-center">
+            © James Cross 2021
+        </h2>
+    </footer>
+
+    <!-- bootstrap scripts -->
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

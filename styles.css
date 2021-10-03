@@ -1,0 +1,34 @@
+.main {
+    background-image: url(pics/rings.jpg); /*img by: nurdanst  https://www.istockphoto.com/photo/rings-gm502711544-82086545*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px black;
+}
+h2 {
+    padding: 10px;
+}
+
+.headline {
+    background-color: rgba(129, 129, 129, 0.85);
+}
+
+.card {
+    color: rgb(255, 255, 255);
+    background-color: rgba(143, 4, 136, 0.6);
+}
+
+.currentList {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 5, 4, .7);
+}
+
+.table {
+    color: rgb(255, 255, 255);
+    background-color: rgba(27, 248, 156, 0.7);
+}
